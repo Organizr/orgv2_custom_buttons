@@ -1,6 +1,7 @@
 # Org Custom Buttons
 Custom buttons for your OrgV2 homepage
 
+There are 3 separate sets of HTML so far. One is for the base OrgV2 theme and the other 2 are for the Plex theme.
 This is based off of bootstrap for more responsive CSS work.
 
 ## Setup:
@@ -14,6 +15,12 @@ OrgV2 Base Theme:
 ![OrgV2 Base Theme](/screen_shots/orgv2_base_theme.PNG)
 
 Plex Theme:
+
+![Plex Theme](https://github.com/jigahertz/orgv2_custom_buttons/blob/master/screen_shots/plex_theme.PNG)
+
+Plex Theme V2:
+![Plex Theme V2](https://github.com/jigahertz/orgv2_custom_buttons/blob/master/screen_shots/orgv2_buttons_plextheme.png)
+
 ![Plex Theme](/screen_shots/plex_theme.PNG)
 
 Netflix Theme:

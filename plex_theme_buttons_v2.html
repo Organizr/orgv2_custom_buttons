@@ -1,0 +1,60 @@
+<center><a class="btn inline-popups speedTestModal" href="#speedtest-area" data-effect="mfp-zoom-out" style="border-radius: 4px;padding: 10px;width: 195px;height: 42px;background-color: rgb(26,26,26,.3); margin: 14px;">
+        <div id="rborder">
+            <span><center><font color="#eee"><b>Test Streaming Speed</b></font></center></span>
+                </div></a>
+		    	<div id="speedtest-area" class="white-popup mfp-with-anim mfp-hide">
+		    		<div class="col-md-6 col-md-offset-6">
+						<div class="panel bg-org panel-info">
+							<div class="panel-heading">
+								<span lang="en">Test Speed to Plex Server</span>
+								<button id="startStopBtn" onclick="startStop()" class="btn btn-info waves-effect waves-light pull-right"><span lang="en" id="speedTestButtonText">Start</span> <i class="fa fa-rocket m-l-5"></i></button>
+							</div>
+							<div class="panel-body">
+								<div id="test">
+									<div class="row hidden-xs">
+										<div class="col-md-6 col-xs-6"><div id="downloadPercent" data-label="0Mbps" style="font-size: 15px;"></div></div>
+										<div class="col-md-6 col-xs-6"><div id="uploadPercent" data-label="0Mbps" style="font-size: 15px;"></div></div>
+									</div>
+									<div class="progress progress-sm">
+										<div id="progress" class="progress-bar progress-bar-info active progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+											<span class="sr-only">0% Complete (success)</span>
+										</div>
+									</div>
+				                    <div class="white-box m-b-0">
+				                        <div class="user-btm-box">
+				                            <div class="col-md-3 col-xs-6 p-l-0 p-r-0 text-center">
+				                                <p class="text-success"><i class="ti-download fa-2x"></i></p>
+				                                <h1 id="dlText"></h1>
+												<h4 class="">Mbps</h4>
+											</div>
+				                            <div class="col-md-3 col-xs-6 p-l-0 p-r-0 text-center">
+				                                <p class="text-warning"><i class="ti-upload fa-2x"></i></p>
+				                                <h1 id="ulText"></h1>
+												<h4 class="">Mbps</h4>
+											</div>
+				                            <div class="col-md-3 col-xs-6 p-l-0 p-r-0 text-center">
+				                                <p class="text-purple"><i class="ti-direction-alt fa-2x"></i></p>
+				                                <h1 id="pingText"></h1>
+												<h4 class="">ms</h4>
+											</div>
+				                            <div class="col-md-3 col-xs-6 p-l-0 p-r-0 text-center">
+				                                <p class="text-info"><i class="ti-pulse fa-2x"></i></p>
+				                                <h1 id="jitText"></h1>
+												<h4 class="">ms</h4>
+											</div>
+				                        </div>
+				                    </div>
+								</div>
+								<script type="text/javascript">initUI();</script>
+							</div>
+							<div class="panel-footer"> IP Address: <span id="ip"></span> </div>
+						</div>
+		    		</div>
+		    	</div>
+<a href="#new-request" class="btn inline-popups speedTestModal" data-effect="mfp-zoom-out" style="border-radius: 4px;padding: 10px;width: 195px;height: 42px;background-color: rgb(26, 26, 26, .3); margin: 14px;">
+        <div id="sborder">
+            <span><center><font color="#eee"><b>Request Content</b></font></center></span>
+                </div>
+        </a>
+</center>
+<br>
